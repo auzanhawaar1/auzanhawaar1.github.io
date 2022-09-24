@@ -1,0 +1,81 @@
+.topnav {
+    display: flex;
+    justify-content: center;
+    align-items: lef;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+}
+
+.topnav a:link,a:hover,a:visited,a:active{
+    color:white;
+    text-decoration: none;
+}
+
+
+.topnav li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+}
+
+.content {
+    background-color:white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.content .judul{
+    text-align: center;
+}
+
+.product {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.img {
+    background-color: grey;
+}
+
+.product img {
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.deskripsi {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(169, 169, 169);
+}
+
+.bio {
+    background-color:white;
+    color: black;
+    text-align: center;
+}
+
+.footer {
+        
+        text-align: center;
+        padding: 3px;
+        background-color: black;
+        color: white;
+      
+}
+.list{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    list-style: none;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.list a {
+    padding: 10px;
+}
